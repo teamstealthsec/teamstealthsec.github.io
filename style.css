@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+hr{border-width: 2px;
+    border-color: gray;
+}
+sup{font-weight: 100;
+    font-size: 16px;
+    font-weight: light;
+}
+.container-main{
+    max-width: 600px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.container-sub img{height: 200px;
+    width: 200px;
+}
+.container-sub h1{
+    font-family: 'Lato', sans-serif;
+}
+p.quote{font-style: italic;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container .summary{font-family: 'Lato',sans-serif;}
+
+.social-icons{
+    padding: 1% 20%;
+    text-align: center;
+}
+.fa-twitter-square{color:  #1da1f2;}
+.fa-linkedin{color:   #0077b5;}
+.fa-github{color: #333;}
+
+.cta{margin-bottom: 10%;
+    font-size: 18px;
+}
+.cta input{width: 100%;
+}
+.cta button{width: 100%;}
+
+@media screen and (max-width: 600px)  {
+    .cta button{margin-top: 5%;}
+}
+
+.articles{text-align: left;
+}
+.articles h2{font-family: 'Lato', sans-serif;}
+.articles li{margin-top: 3%;
+    font-style: italic;
+    list-style: inside;
+}
+.articles li a{color: black;}
