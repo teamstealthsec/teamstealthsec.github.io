@@ -11,7 +11,7 @@ sup{font-weight: 100;
 .container-main{
     max-width: 600px;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 7%;
 }
 
 .container-sub img{height: 200px;
@@ -27,6 +27,10 @@ p.quote{font-style: italic;
 }
 .container .summary{font-family: 'Lato',sans-serif;}
 
+.main-icons{
+    padding: 1% 15%;
+    text-align: center;
+}
 .social-icons{
     padding: 1% 20%;
     text-align: center;
