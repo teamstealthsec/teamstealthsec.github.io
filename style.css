@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ubuntu+Mono&display=swap');
 
 
 hr{border-width: 2px;
@@ -12,21 +12,19 @@ sup{font-weight: 100;
     max-width: 600px;
     text-align: center;
     margin-top: 7%;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .container-sub img{height: 200px;
     width: 200px;
 }
 .container-sub h1{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
-p.quote{font-style: italic;
-    font-size: 14px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+.summary{
+    font-size: 18px;
 }
-.container .summary{font-family: 'Lato',sans-serif;}
-
 .main-icons{
     padding: 1% 15%;
     text-align: center;
@@ -49,12 +47,3 @@ p.quote{font-style: italic;
 @media screen and (max-width: 600px)  {
     .cta button{margin-top: 5%;}
 }
-
-.articles{text-align: left;
-}
-.articles h2{font-family: 'Lato', sans-serif;}
-.articles li{margin-top: 3%;
-    font-style: italic;
-    list-style: inside;
-}
-.articles li a{color: black;}
