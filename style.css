@@ -13,6 +13,7 @@ sup{font-weight: 100;
     text-align: center;
     margin-top: 4%;
     font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
 }
 
 .container-sub img{height: 200px;
@@ -22,19 +23,14 @@ sup{font-weight: 100;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
 }
-.summary{
-    font-size: 18px;
-}
+
 .main-icons a{
-    /* padding: 1% 15%; */
     width: 100%;
 }
 
 .cta{
-    /* margin-bottom: 10%; */
     font-size: 18px;
 }
-.enquiry a{color: black;}
 #contact{text-decoration: underline;
     cursor: pointer;
 }
