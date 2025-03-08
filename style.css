@@ -35,6 +35,9 @@ sup{font-weight: 100;
     font-size: 18px;
 }
 .enquiry a{color: black;}
+#contact{text-decoration: underline;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 600px)  {
     .cta button{margin-top: 5%;}
