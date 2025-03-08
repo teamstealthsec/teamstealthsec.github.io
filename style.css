@@ -25,27 +25,16 @@ sup{font-weight: 100;
 .summary{
     font-size: 18px;
 }
-.main-icons{
-    padding: 1% 15%;
-    text-align: center;
+.main-icons a{
+    /* padding: 1% 15%; */
+    width: 100%;
 }
-.social-icons{
-    padding: 1% 20%;
-    text-align: center;
-}
-.fa-twitter{color:  #1da1f2;}
-.fa-linkedin{color:   #0077b5;}
-.fa-github{color: #333;}
-.fa-instagram{color: #c13584;}
-.fa-facebook{color: #1877f2;}
-.fa-reddit{color: #ff4500;}
 
-.cta{margin-bottom: 10%;
+.cta{
+    /* margin-bottom: 10%; */
     font-size: 18px;
 }
-.cta input{width: 100%;
-}
-.cta button{width: 100%;}
+.enquiry a{color: black;}
 
 @media screen and (max-width: 600px)  {
     .cta button{margin-top: 5%;}
